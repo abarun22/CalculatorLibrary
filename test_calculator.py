@@ -1,6 +1,6 @@
-# """""""""""""""""""""""""""""""""""""""
-# Unit tests for the calculator library
-# """""""""""""""""""""""""""""""""""""""
+ # """""""""""""""""""""""""""""""""""""""
+ # Unit tests for the calculator library
+ # """""""""""""""""""""""""""""""""""""""
 
 import calculator
 
@@ -23,6 +23,6 @@ class TestCalculator:
 #        calculator.add(1,2)
         print("Hello world")
 
-#calc = TestCalculator()
-#calc.test_addition()
-#print("b:",calc.b)
+ # calc = TestCalculator()
+ # calc.test_addition()
+ # print("b:",calc.b)
