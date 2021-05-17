@@ -1,12 +1,10 @@
-# """
+# """""""""""""""""""""""""""""""""""""""
 # Unit tests for the calculator library
-# """
+# """""""""""""""""""""""""""""""""""""""
 
 import calculator
 
-
 class TestCalculator:
-
     def test_addition(self):
        self.b=0
        self.b = calculator.add(5, 5.5)
@@ -17,7 +15,6 @@ class TestCalculator:
            assert self.b/a < 1.10
        elif(self.b < a):
            assert self.b/a > 0.9
-
 
     def test_subtraction(self):
         assert 2 == calculator.subtract(4, 2)
