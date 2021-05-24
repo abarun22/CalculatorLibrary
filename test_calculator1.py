@@ -6,7 +6,7 @@ import calculator
 
 class TestCalculator:
     def test_addition(self):
-       self.b=0
+#       self.b=10.5
        self.b = calculator.add(5, 5.5)
        print("b:",self.b)
        a = 10
@@ -18,13 +18,6 @@ class TestCalculator:
 
     def test_subtraction(self):
         assert 2 == calculator.subtract(4, 2)
-
-    def test_example(self):
-#        calculator.add(1,2)
-        print("Hello world")
-
-    def test_multiplication(self):
-        assert 100 == calculator.multiply(10, 10)
 
 # calc = TestCalculator()
 # calc.test_addition()
